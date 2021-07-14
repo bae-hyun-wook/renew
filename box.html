@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> 
+<title></title>
+<style>
+h1{
+padding: 8px;
+border-bottom: pink solid 3px;
+margin: 0px;
+padding: 10px;  }
+
+a{border: greenyellow solid 4px;}
+
+#grid ol{border-right: 4px solid pink;
+width: 120px;
+margin:  0px;
+padding: 20px;}
+
+body{margin:0px;}
+
+h2{border:3px solid yellowgreen;
+   margin: 10px;
+   display:inline;
+     }
+h3{border: 10px solid blueviolet;
+margin: 10px;
+display: block;
+width: 80px;}     
+
+#grid{display: grid;
+      grid-template-columns: 150px 1fr; }
+
+
+@media(min-width:900px) {
+#grid{display:block;}    
+}      
+
+</style>    
+</head>
+<body>
+<h1>놀러오세요 식단표</h1>
+<div id="grid">
+    <ol>
+     <li>1월</li>
+     <li>2월</li> 
+     <li>3월</li> 
+     <li>4월</li> 
+     <li>5월</li>
+    </ol>
+ <div id="article" style="padding-left: 30px;">
+    1월은 딸기,삼치,꼬막,우엉,한라봉,더덕,도미<br>
+    2월은 바지락,더덕,아귀,딸기,우엉,꼬막,삼치,한라봉,도미<br> 
+    3월은 
+    </div>
+</div>    
+<p><a href="https://honeytip.kr/443">1월</a></p>
+
+<h2>6월</h2>  <h2>7월</h2> <h3>8월</h3> <h3>9월</h3> 
+
+</body>
+</html>
